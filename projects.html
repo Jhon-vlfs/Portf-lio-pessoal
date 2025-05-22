@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="templates/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/plumpy/24/portfolio.png" type="image/x-icon">
+    <title>Projects | Portfólio</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <button class="logo-btn">Jhon-vlfs</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+            </ul>
+        </nav>
+        <div class="social">
+            <a href="https://github.com/Jhon-vlfs" class="github-icon"><i class="fab fa-github"></i></a>
+        </div>
+    </header>
+    <main class="skills-page">
+        <section>
+            <div class="profile-image">
+                <div class="image-container">
+                    <img src="images/1000259523.png">
+                </div>
+            </div>
+        </section>
+        <main class="projects-page">
+            <section class="projects-section">
+                <h2 class="section-title">Projetos</h2>
+                
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web-design">Web design</button>
+                    <button class="filter-btn" data-filter="applications">Applications</button>
+                    <button class="filter-btn" data-filter="web-development">Web development</button>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Projeto CRUD -->
+                    <div class="project-card" data-category="web-development">
+                        <div class="project-image">
+                            <a href="https://github.com/Jhon-vlfs/Manipulando-banco-de-dados-com-Java">
+                                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmw39OaGeIiR2_yKnSCUFX3ypmYqm9ML9zfqCJOC_HGYKvMRgozYve-DWBnH6Vp5F_JF0IKrCESW-Jj7Agx78K9EW3y9FfBsHgpK72zDYQQaWjFG70m47eHJi44SuqGl3Sj92lKs4Uwtgr/s1600/crud.jpg" alt="CRUD Project">
+                                <div class="project-overlay">
+                                    <button class="view-project">Ver Projeto</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Crud</h3>
+                            <span class="project-category">Web development</span>
+                            <p class="project-description">Sistema CRUD completo com operações de criar, ler, atualizar e deletar registros.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Projeto App Art -->
+                    <div class="project-card" data-category="web-development">
+                        <div class="project-image">
+                            <a href="https://github.com/Jhon-vlfs/Site-responsivo-CatInfo">
+                                <img src="https://labovet.com.br/wp-content/uploads/2024/11/CONHECA-E-APRENDA-A-IDENTIFICAR-AS-RACAS-DE-GATOS-MAIS-COMUNS-NO-BRASIL.jpg" alt="Cat Info">
+                                <div class="project-overlay">
+                                    <button class="view-project">Ver Projeto</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Cat Info</h3>
+                            <span class="project-category">Web development</span>
+                            <p class="project-description">Site responsivo que une vários fatos de gatos. Usado de demosntração para Projeto Complementar.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Projeto App Viagens -->
+                    <div class="project-card" data-category="applications">
+                        <div class="project-image">
+                            <a href="https://github.com/Jhon-vlfs/Orgaizador-De-Arquivos-Em-Python">
+                                <img src="https://destaque.com.br/wp-content/uploads/2024/04/2024-05-arquivo-fisico-para-gestao-eletronica.jpg" alt="Organizador de arquivos">
+                                <div class="project-overlay">
+                                    <button class="view-project">Ver Projeto</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Organizador de Arquivos</h3>
+                            <span class="project-category">Applications</span>
+                            <p class="project-description">Aplicação feita para rodar em terminal usando Python. Possui opções de organização em diretórios, por nome, por data e por tipo.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <script src="templates/js/script.js"></script>
+</body>
+</html>
